@@ -1,5 +1,5 @@
 import 'package:get/get.dart';
-import 'package:shikhabohub/feature/auth/view/screen/login.dart';
+import 'package:shikhabohub/feature/auth/view/screen/signup.dart';
 import 'package:shikhabohub/feature/splash/view/screen/splash.dart';
 
 
@@ -12,6 +12,6 @@ class Routes {
       page: () => Splash(),
       
       ),
-    GetPage(name: login, page: () => Login()),
+    GetPage(name: login, page: () => Signup()),
   ];
 }
